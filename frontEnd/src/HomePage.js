@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import './homePage.css';
+import './HomePage.css';
 
 function HomePage() {
   const [searchTerm, setSearchTerm] = useState('');
   // Sample data for top reads; replace these URLs with your actual image URLs
   const [topReads, setTopReads] = useState([
-    { id: 1, imgSrc: '/book1.jpeg'},
-    { id: 2, imgSrc: '/book2.jpeg' },
-    { id: 3, imgSrc: '/book3.jpeg'},
+    { id: 1, imgSrc: '/Mistborn_cover.jpg'},
+    { id: 2, imgSrc: '/The_Hobbit_Cover.webp'},
+    { id: 3, imgSrc: '/How_to_Make_a_Wish_cover.jpg'},
   ]);
 
   const handleSearch = (event) => {
