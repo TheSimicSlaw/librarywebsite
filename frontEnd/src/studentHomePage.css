@@ -1,0 +1,15 @@
+.studentHomePageWrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.studentHomePageWrapper h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.studentHomePageWrapper p {
+  font-size: 18px;
+  line-height: 1.6;
+}

@@ -1,0 +1,93 @@
+h1, h2 {
+  color: #fff;
+}
+
+.welcome{
+  margin-top:0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+}
+
+.searchForm {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  height: auto;
+  width: auto;
+  
+}
+
+.searchForm input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  width: 500px; 
+  height: 4s0px;
+  border-radius: 5px;
+  border: 3px solid black;
+}
+
+.searchForm input::placeholder {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+}
+
+.searchForm button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #583c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  border: 3px solid black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+}
+
+/* Hover effect for buttons */
+.searchForm button:hover {
+  background-color: #7c5454;
+}
+
+/* Further styling for the home content */
+.homeContent {
+  text-align: center;
+  padding: 20px;
+}
+
+
+body {
+  padding-top: 50px;
+  background-color: white;
+}
+
+
+.App {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  
+}
+
+h1, h2 {
+  color: #333;
+}
+
+#book-list {
+  margin-bottom: 20px;
+}
+
+.book {
+  background-color: #9e8b8b;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#book-form > input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#book-form > input[type="submit"] {
+  padding: 10px;
+  cursor: pointer;
+}

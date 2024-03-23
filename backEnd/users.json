@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "StudentID": "user1",
+      "ContactNumber": "password1"
+    },
+    {
+      "StudentID": "user2",
+      "ContactNumber": "password2"
+    },
+    {
+      "StudentID": "user3",
+      "ContactNumber": "password3"
+    }
+  ]
+}
