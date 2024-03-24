@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import './profSignIn.css'; // Make sure the CSS file is correctly linked
+import './profSignIn.css';
 
 function ProfSignInPage() {
   const [FacultyID, setFacultyID] = useState('');

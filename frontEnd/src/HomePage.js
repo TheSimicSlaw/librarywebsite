@@ -3,7 +3,7 @@ import './HomePage.css';
 
 function HomePage() {
   const [searchTerm, setSearchTerm] = useState('');
-  // Sample data for top reads; replace these URLs with your actual image URLs
+  
   const [topReads, setTopReads] = useState([
     { id: 1, imgSrc: '/Mistborn_cover.jpg'},
     { id: 2, imgSrc: '/The_Hobbit_Cover.webp'},

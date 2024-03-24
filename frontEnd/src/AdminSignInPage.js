@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import './adminSignIn.css'; // Make sure the CSS file is correctly linked
+import './adminSignIn.css'; 
 
 function AdminSignInPage() {
   const [adminID, setAdminID] = useState('');

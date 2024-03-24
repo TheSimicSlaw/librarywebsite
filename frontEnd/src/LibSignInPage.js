@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import './libSignIn.css'; // Make sure the CSS file is correctly linked
+import './libSignIn.css'; 
 
 function LibSignInPage() {
   const [librarianID, setLibrarianID] = useState('');

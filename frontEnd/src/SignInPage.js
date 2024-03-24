@@ -80,7 +80,7 @@
 
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import './signIn.css'; // Make sure the CSS file is correctly linked
+import './signIn.css'; 
 
 function SignInPage() {
   const [StudentID, setStudentID] = useState('');
