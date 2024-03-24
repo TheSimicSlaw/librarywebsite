@@ -22,8 +22,8 @@ function AdminSignInPage() {
       admin3: 'password3'
     };
 
-    if(dummyAdmin.hasOwnProperty(AdminID)) {
-      if(password === dummyAdmin[AdminID]) {
+    if(dummyAdmin.hasOwnProperty(adminID)) {
+      if(password === dummyAdmin[adminID]) {
         navigate('/adminhomepage');
         return;
       }

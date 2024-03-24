@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
+//import React from 'react'; 
 import './HomePage.css';
 
 function HomePage() {
   const [searchTerm, setSearchTerm] = useState('');
-  
+
   const [topReads, setTopReads] = useState([
     { id: 1, imgSrc: '/Mistborn_cover.jpg'},
     { id: 2, imgSrc: '/The_Hobbit_Cover.webp'},
